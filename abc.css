@@ -1,0 +1,66 @@
+body{
+margin:0;
+padding :0:
+}
+html{
+scroll-behavior: smooth;
+}
+a{
+text-decoration: none;
+color: white;
+display: inline;
+}
+header{
+background-color:black;
+padding: 20px;
+}
+.brand-name{
+color: white;
+}
+ul{
+list-style-type:none;
+color:white;
+}
+ul .menu-item{
+padding: 10px;
+margin: 10px;
+display: inline;
+}
+ul li:hover, .active{
+background-color:green;
+color:white;
+}
+.service-box{
+width:300px;
+margin: 30px;
+// padding:20px;
+border:1px solid gray;
+border-radius: 10px;
+display: inline-block;
+}
+
+.btn{
+margin: 10px;
+background-color: green;
+color:white;
+padding:10px 15px;
+}
+
+.about{
+display: inline-block;
+}
+
+.content{
+width: 40%;
+//padding: 48px;
+}
+.hero{
+display:inline-block;
+}
+.contact{
+display: inline-block;
+margin:30px 60px;
+}
+.float{
+float:right;
+}
